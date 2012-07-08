@@ -15,10 +15,10 @@
 %%
 %% API Functions
 %%
-
+hello() -> io:format("Hello World!~n", []).
 
 
 %%
 %% Local Functions
 %%
-hello() -> io:format("Hello World!~n", []).
+
